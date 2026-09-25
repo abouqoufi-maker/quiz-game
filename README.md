@@ -1,0 +1,81 @@
+🎯 Python Quiz Game
+
+A simple command-line Quiz Game built with Python.
+
+The game asks the user a series of multiple-choice questions, checks the answers, calculates the final score, and displays the results.
+
+This project was created to practice Python loops, tuples, lists, conditions, user input, and basic score calculation.
+
+🚀 Features
+❓ Multiple-choice questions
+🔤 Four options for each question: A, B, C, D
+✅ Automatic answer checking
+📊 Score calculation in percentage
+📝 Displays the user's answers
+🎯 Displays the correct answers
+💻 Runs directly in the terminal
+🛠️ Technologies
+Python 3
+for loops
+if / else conditions
+Tuples
+Lists
+User input
+String methods
+Basic calculations
+▶️ How to Run
+
+Make sure Python 3 is installed on your computer.
+
+Clone the repository:
+
+git clone https://github.com/YOUR-USERNAME/quiz-game.git
+
+Go to the project folder:
+
+cd quiz-game
+
+Run the program:
+
+python quiz_game.py
+🎮 Example
+-------------------
+1. Quelle est la capitale de l'australie ?
+A) Sydney
+B) Melbourne
+C) Canberra
+D) Perth
+
+enter the option(A,B,C,D): C
+CORRECT !
+
+-------------------
+2. Quel est le plus grand océan du monde ?
+A) Atlantique
+B) Indien
+C) Arctique
+D) Pacifique
+
+enter the option(A,B,C,D): D
+INCORRECT !
+the correct answer is A
+
+----------------
+     RESULT
+----------------
+B A C C C
+C D C C C
+
+your score is 80
+📚 What I Learned
+
+This project helped me practice:
+
+Storing questions and answers using tuples
+Storing user answers using lists
+Using nested for loops
+Accessing elements using indexes
+Comparing user input with correct answers
+Keeping track of a score
+Calculating a percentage
+Formatting terminal output with f-strings
